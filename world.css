@@ -10,3 +10,14 @@ header{
 main{
     padding: 15px; 
 }
+
+table, th, tr, td{
+    border:2px solid black;
+}
+
+.name, .continent, .Independence, .hos{
+    border: 1px solid black; 
+}
+
+
+
