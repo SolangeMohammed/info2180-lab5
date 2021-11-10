@@ -1,7 +1,7 @@
 /* Add your own styles */
 header{
     text-align: center;
-    background-color: rgb(89, 199, 162);
+    background-color: rgb(4, 144, 168);
     text-shadow: 2px;
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -11,12 +11,61 @@ main{
     padding: 15px; 
 }
 
-table, th, tr, td{
-    border:2px solid black;
+#lookup{
+    background-color: rgb(137, 137, 194);
+    padding: 10px; 
+    font-size: medium;
+
 }
 
-.name, .continent, .Independence, .hos{
-    border: 1px solid black; 
+#lookupCities{
+    background-color: rgb(142, 142, 150);
+    padding: 10px; 
+    font-size: medium;
+    text-align:
+}
+
+#controls{
+    text-align: center;
+    
+}
+
+input{
+    padding: 10px; 
+    width: 40em;
+    font-size: medium;
+
+}
+label{
+    font-size: larger;
+}
+
+
+table, th, tr, td{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #c0a71b;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;}
+    
+img{
+    border-radius: 50px;
+    width:140px;
+    height:140px;
+    padding: 15px;
+
 }
 
 
