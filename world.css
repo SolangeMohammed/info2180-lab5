@@ -1,4 +1,8 @@
 /* Add your own styles */
+
+body{
+    background-color: rgb(211, 195, 195) ;
+}
 header{
     text-align: center;
     background-color: rgb(4, 144, 168);
@@ -53,7 +57,7 @@ th{
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #c0a71b;
+    background-color: #c9c7bc;
     color: white;
 }
 

@@ -35,12 +35,12 @@ if($country !== ""):
   
   }
   endforeach;
+  echo "</table>"; 
 endif; 
-echo "</table>"; 
+
 ?>
 
-<?php
-if($cities == "cities"):
+<?php if($cities == "cities"):
 
   echo "<table>
   <tr>
@@ -50,7 +50,7 @@ if($cities == "cities"):
   </tr>"; ?>
   <?php 
   foreach($results1 as $row): {
-    if($row['countryname']== $country || $country == ""):
+    if($row['countryname']== $country):
       {
         echo "<tr>"; 
         echo "<td>" .$row['city']. "</td>";
